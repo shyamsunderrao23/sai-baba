@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Lora", "Tiro Devanagari Hindi", serif;
+  --font-serif: "Lora", "Tiro Devanagari Hindi", serif;
+  --font-body: "Lora", "Tiro Devanagari Hindi", serif;
+
+  --color-saffron: #e8872a;
+  --color-saffron-dark: #c96f18;
+  --color-maroon: #7a1520;
+  --color-maroon-dark: #5a0e14;
+  --color-burgundy: #4a0a10;
+  --color-gold: #c9a227;
+  --color-gold-light: #e8c96a;
+  --color-cream: #f8f0e3;
+  --color-cream-dark: #efe4d2;
+  --color-temple-brown: #3b1f0f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #FDFBF2;
+  color: #3a2a22;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.bg-hero-temple {
+  background:
+    radial-gradient(ellipse at 70% 40%, rgba(201, 162, 39, 0.12) 0%, transparent 55%),
+    radial-gradient(ellipse at 20% 80%, rgba(122, 21, 32, 0.4) 0%, transparent 50%),
+    linear-gradient(135deg, #3a0810 0%, #5a0e14 40%, #4a0a10 100%);
+}
+
+.bg-diya-pattern {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(201, 162, 39, 0.2) 1px,
+    transparent 0
+  );
+  background-size: 24px 24px;
+}
+
+.ornate-border-top {
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(90deg, transparent, var(--color-gold), transparent) 1;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px rgba(90, 14, 20, 0.08);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes petal-fall {
+  0% {
+    top: -12%;
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.95;
+  }
+  85% {
+    opacity: 0.85;
+  }
+  100% {
+    top: 108%;
+    transform: translateX(calc(-50% + var(--drift))) rotate(var(--spin));
+    opacity: 0;
+  }
+}
+
+.petal {
+  animation-name: petal-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.15));
+  line-height: 1;
+}
