@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import HomeBanner from '../components/HomeBanner'
+import VideoSection from '../components/VideoSection'
 import welcomeBabaTree from '../assets/second-section.png'
 import sevaPooja from '../assets/generated/seva-pooja.png'
 import sevaAnnadaan from '../assets/generated/seva-annadaan.png'
@@ -296,6 +297,9 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* Sacred Videos Section */}
+      <VideoSection />
     </div>
   )
 }

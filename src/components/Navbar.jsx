@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
-import saiBabaLogo from '../assets/sai-baba-logo-mark-cream.png'
+import headerLogo from '../assets/header-logo.jpg'
 import AboutUsMegaMenu, {
   aboutTrustLinks,
   aboutJourneyLinks,
@@ -52,13 +52,13 @@ function TopBar() {
         {/* Right contact + socials */}
         <div className="ml-auto hidden items-center gap-5 font-serif text-[0.78rem] lg:flex">
           <a
-            href="tel:+912423258500"
+            href="tel:+919849641164"
             className="flex items-center gap-1.5 transition-colors hover:text-white"
           >
             <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
             </svg>
-            <span>+91 2423 258500</span>
+            <span>+91 98496 41164</span>
           </a>
           <a
             href="mailto:info@saibaba.org"
@@ -204,14 +204,14 @@ function Navbar() {
       <div ref={desktopNavRef} className="relative">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-4 py-2.5 sm:px-6 lg:px-8">
           <Link to="/" className="flex shrink-0 items-center gap-3">
-            <span className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-full border-[1.5px] border-[#c9a84a] bg-[#FDFBF2] shadow-sm sm:h-[4.5rem] sm:w-[4.5rem]">
+            <span className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-full border-2 border-[#c9a84a] bg-[#FDFBF2] shadow-sm sm:h-[4.5rem] sm:w-[4.5rem]">
               <img
-                src={saiBabaLogo}
-                alt="Sai Baba"
+                src={headerLogo}
+                alt="Sri Sadguru Shiridi Kshetram"
                 width={72}
                 height={72}
                 decoding="async"
-                className="h-[92%] w-[92%] object-contain"
+                className="h-full w-full object-cover object-center"
               />
             </span>
             <div className="flex flex-col font-serif leading-none">

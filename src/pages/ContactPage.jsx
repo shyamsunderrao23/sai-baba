@@ -7,8 +7,8 @@ import gallerySamadhi from '../assets/gallery/gallery-samadhi.jpg'
 const contactCards = [
   {
     title: 'Visit Us',
-    text: 'Shirdi Sai Baba Sansthan Trust, Shirdi, Tal. Rahata, Dist. Ahmednagar, Maharashtra – 423109, India',
-    href: 'https://maps.google.com/?q=Shirdi+Sai+Baba+Sansthan+Trust',
+    text: 'Sri Sadguru Shiridi Kshetram, Bhaskar Nagar, Water Tank Prakkana, Kakinada',
+    href: 'https://maps.google.com/?q=Sri+Sadguru+Shiridi+Kshetram+Bhaskar+Nagar+Kakinada',
     icon: (
       <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z" />
@@ -18,8 +18,8 @@ const contactCards = [
   },
   {
     title: 'Call Us',
-    text: '+91 2423 258500\n(10:00 AM to 6:00 PM – IST) All days',
-    href: 'tel:+912423258500',
+    text: '+91 98496 41164\n(All days)',
+    href: 'tel:+919849641164',
     icon: (
       <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
@@ -131,8 +131,8 @@ const socials = [
   },
   {
     name: 'WhatsApp',
-    handle: '+91 99499 12345',
-    href: 'https://wa.me/919949912345',
+    handle: '+91 98496 41164',
+    href: 'https://wa.me/919849641164',
     bg: 'bg-[#25D366]',
     icon: (
       <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -398,15 +398,15 @@ function ContactPage() {
             <SectionTitle>Find Us</SectionTitle>
             <div className="overflow-hidden rounded-xl border border-[#e8dfd0]">
               <iframe
-                title="Shirdi Sai Baba Sansthan Trust Map"
-                src="https://maps.google.com/maps?q=Shirdi%20Sai%20Baba%20Sansthan%20Trust&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                title="Sri Sadguru Shiridi Kshetram Map"
+                src="https://maps.google.com/maps?q=Sri%20Sadguru%20Shiridi%20Kshetram%20Bhaskar%20Nagar%20Water%20Tank%20Kakinada&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 className="h-[280px] w-full border-0 sm:h-[340px]"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Shirdi+Sai+Baba+Sansthan+Trust"
+              href="https://www.google.com/maps/dir/?api=1&destination=Sri+Sadguru+Shiridi+Kshetram+Bhaskar+Nagar+Kakinada"
               target="_blank"
               rel="noreferrer"
               className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-md border border-[#B38644] bg-[#FCF8F2] px-4 py-2.5 text-sm font-semibold text-[#5a0e14] transition hover:bg-[#FDF8EF]"

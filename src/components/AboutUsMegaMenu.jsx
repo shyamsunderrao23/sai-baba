@@ -269,7 +269,7 @@ function AboutUsMegaMenu({ onNavigate }) {
             <img src={heroBaba} alt="Shirdi Sai Baba" className="h-28 w-full object-cover object-top" />
             <div className="p-3.5">
               <h5 className="font-serif text-sm font-bold leading-snug text-[#5a0e14]">
-                Shirdi Sai Baba Sansthan Trust
+                Sri Sadguru Shiridi Kshetram
               </h5>
               <p className="mt-1.5 text-[0.68rem] leading-snug text-[#6b6b6b]">
                 Dedicated to the welfare of devotees through faith, seva and spiritual guidance.

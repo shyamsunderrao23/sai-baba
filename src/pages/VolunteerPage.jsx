@@ -277,6 +277,7 @@ function VolunteerPage() {
                   </select>
                   <select name="location" required value={form.location} onChange={onChange} className={fieldClass}>
                     <option value="">Preferred Seva Location</option>
+                    <option value="kakinada">Sri Sadguru Shiridi Kshetram (Kakinada)</option>
                     <option value="shirdi">Shirdi</option>
                     <option value="local">Local Center</option>
                     <option value="online">Online Support</option>
@@ -397,8 +398,8 @@ function VolunteerPage() {
             </a>
             <div className="text-center sm:text-left">
               <p className="text-xs text-[#3b1f0f]/60">Call Us</p>
-              <a href="tel:+919949912345" className="text-sm font-semibold text-[#5a0e14]">
-                +91 99499 12345
+              <a href="tel:+919849641164" className="text-sm font-semibold text-[#5a0e14]">
+                +91 98496 41164
               </a>
             </div>
             <img src={galleryDiya} alt="" className="hidden h-14 w-14 rounded-full object-cover opacity-80 lg:block" />

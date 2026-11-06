@@ -5,18 +5,18 @@ function Contact() {
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-2xl border border-gold/40 bg-white/70 p-6 text-center shadow-sm">
             <span className="text-3xl">🛕</span>
-            <h3 className="mt-3 font-display text-lg text-maroon-dark">Visit Shirdi</h3>
+            <h3 className="mt-3 font-display text-lg text-maroon-dark">Visit Us</h3>
             <p className="mt-2 text-sm text-neutral-600">
-              Shirdi, Ahmednagar District, Maharashtra, India. Well connected by rail
-              (Shirdi Sainagar) and road from Mumbai &amp; Pune.
+              Sri Sadguru Shiridi Kshetram, Bhaskar Nagar, Water Tank Prakkana, Kakinada.
             </p>
           </div>
           <div className="rounded-2xl border border-gold/40 bg-white/70 p-6 text-center shadow-sm">
-            <span className="text-3xl">🙏</span>
-            <h3 className="mt-3 font-display text-lg text-maroon-dark">Offer Seva &amp; Donate</h3>
+            <span className="text-3xl">📞</span>
+            <h3 className="mt-3 font-display text-lg text-maroon-dark">Call Us</h3>
             <p className="mt-2 text-sm text-neutral-600">
-              For official donations, poojas, darshan passes and accommodation, please
-              use the official Sansthan services.
+              <a href="tel:+919849641164" className="font-medium text-saffron-dark hover:underline">
+                +91 98496 41164
+              </a>
             </p>
           </div>
           <div className="rounded-2xl border border-gold/40 bg-white/70 p-6 text-center shadow-sm">
